@@ -3,7 +3,7 @@
 Introduction
 Adventure work project is a guided project from the Master Power BI Desktop for data analysis with hands-on assignments & projects, Powered by Udemy. I came across the dataset and admired how rich the data is as I have been trying to get my hands dirty with a very rich dataset to practice my skills of data cleaning, analysis and visualization.
 
-## Power BI Concepts applied:
+### Power BI Concepts applied:
 
 DAX Concepts: Calculated column, Custom Column, Year(), IF(), Weekday(), Switch(), Left(), etc.
 Data Modelling: Star Schema (*:1)
@@ -15,7 +15,7 @@ Which of our customers are most important?
 Which of our products make the greatest profit and which products run the store into loss?
 Any other relevant data-driven insight into our sales.
 
-## Data Sourcing
+### Data Sourcing
 Not until I came up with the above mentioned questions did I went ahead to get the data. I then downloaded the csv file, and extracted it into Power BI for clening, analysis and visualization.
 
 It contains 3 sheets/tables:
@@ -24,7 +24,9 @@ ORDERS with 51,291 rows and 24 columns
 PEOPLE with 24 rows and 2 columns
 RETURNS with 1079 rows and 3 columns
 Data Transformation/Cleaning:
-Data was efficiently cleaned and transformed with the Power Query Editor of Power BI.<img width="948" alt="QUERY EDITOR PRODUCT LOOKUP" src="https://github.com/mrdimejisam/Adventure-Works/assets/111657348/490c5e33-741c-4117-8166-5281609d17ab">
+Data was efficiently cleaned and transformed with the Power Query Editor of Power BI.
+
+<img width="948" alt="QUERY EDITOR PRODUCT LOOKUP" src="https://github.com/mrdimejisam/Adventure-Works/assets/111657348/490c5e33-741c-4117-8166-5281609d17ab">
 
 Some of the applied steps included
 
