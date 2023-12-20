@@ -1,19 +1,21 @@
 # Adventure-Works
 
 Introduction
-I came across the dataset online and admired how rich the data is as I have been trying to get my hands dirty with a very rich dataset to practice my skills of data cleaning, analysis and visualization.
+Adventure work project is a guided project from the Master Power BI Desktop for data analysis with hands-on assignments & projects, Powered by Udemy. I came across the dataset and admired how rich the data is as I have been trying to get my hands dirty with a very rich dataset to practice my skills of data cleaning, analysis and visualization.
 
-Power BI Concepts applied:
+## Power BI Concepts applied:
 
-DAX Concepts: Calculated column, Custom Column, Year(), IF().
+DAX Concepts: Calculated column, Custom Column, Year(), IF(), Weekday(), Switch(), Left(), etc.
 Data Modelling: Star Schema (*:1)
-Problem Statement
+
+## Problem Statement
 How long on average does an order take before delivery?
 What is the total sales made yearly since 2012? Has sales been on the increase since over the yers?
 Which of our customers are most important?
 Which of our products make the greatest profit and which products run the store into loss?
 Any other relevant data-driven insight into our sales.
-Data Sourcing
+
+## Data Sourcing
 Not until I came up with the above mentioned questions did I went ahead to get the data. I then downloaded the csv file, and extracted it into Power BI for clening, analysis and visualization.
 
 It contains 3 sheets/tables:
@@ -23,30 +25,32 @@ PEOPLE with 24 rows and 2 columns
 RETURNS with 1079 rows and 3 columns
 Data Transformation/Cleaning:
 Data was efficiently cleaned and transformed with the Power Query Editor of Power BI.<img width="948" alt="QUERY EDITOR PRODUCT LOOKUP" src="https://github.com/mrdimejisam/Adventure-Works/assets/111657348/490c5e33-741c-4117-8166-5281609d17ab">
-  Some of the applied steps included
+
+Some of the applied steps included
 
 Making first row as headers in the Product Lookup table.
 Add new column from the ProductSKU, then extract using delimeters to Add new column, then rename column to SKU Type 
+Change datatype
 
-DAX CALCULATED COLUMNS
+## DAX CALCULATED COLUMNS
+
 Calculated column refer to entire table and were used to generate values for each row.
-Analytical transformation of the 'order table'; To have an idea of how long it takes on average for orders to be dilevered, [delivery days] need to be calculated. Using "custom columns", delivery days = [shipped date] - [order date]
-created new column for year of order date and named: [Order Year]
-ADDING conditional column to the 'Returns Table' to assign a numeric value to the Return response of YES and NO. If YES, then 1, else 0. Return Orders = IF(Returns[Returned] = "Yes", 1, 0)
+
 Datatype then chnged from 'TEXT' TO 'WHOLE NUMBER'.
 
 
 
+## CREATING DAX MEASURES
 
-CREATING DAX MEASURES
 Measures evaluate based on filter context, which means they recalculate when the fields or filters around them change. Measures aren't visible within tavles; they can only be "seen" within a visualization. 
 Below are the measures I have created
 
 
-DATA MODELLING
+## DATA MODELLING
+
 Power BI automatically connected related tables resulting in a star schema model. The 'Order' table is the fact table of the model. The remaining two dimension tables; 'Return' table and 'People' table are connected to the 'Order' table via the common columns: 'order ID' and Region respectively. 
 
-Data Analysis and Visuals
+## Data Analysis and Visuals
 
 
 From the dashboard, it is observed that it takes 4 days on average to deliver each product on every order.
@@ -56,7 +60,8 @@ Sales is highest in the Western Europe region with almost 450k dollars.
 
 Tamara Chand is the most valuable costumer by sales.
 
-conclusions & Recommendations
+## conclusions & Recommendations
+
 An order takes 4days on average before delivery.
 There has been a gradual increase in the yearly sales since 2012 at the rate of approximately 19%.
 Different customers topped the profit list for each year.
