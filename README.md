@@ -1,6 +1,7 @@
 # Adventure-Works
 
-Introduction
+### Introduction
+
 Adventure work project is a guided project from the Master Power BI Desktop for data analysis with hands-on assignments & projects, Powered by Udemy. I came across the dataset and admired how rich the data is as I have been trying to get my hands dirty with a very rich dataset to practice my skills of data cleaning, analysis and visualization.
 
 ### Power BI Concepts applied:
@@ -8,14 +9,14 @@ Adventure work project is a guided project from the Master Power BI Desktop for 
 DAX Concepts: Calculated column, Custom Column, Year(), IF(), Weekday(), Switch(), Left(), etc.
 Data Modelling: Star Schema (*:1)
 
-## Problem Statement
+### Problem Statement
 How long on average does an order take before delivery?
 What is the total sales made yearly since 2012? Has sales been on the increase since over the yers?
 Which of our customers are most important?
 Which of our products make the greatest profit and which products run the store into loss?
 Any other relevant data-driven insight into our sales.
 
-### Data Sourcing
+#### Data Sourcing
 Not until I came up with the above mentioned questions did I went ahead to get the data. I then downloaded the csv file, and extracted it into Power BI for clening, analysis and visualization.
 
 It contains 3 sheets/tables:
