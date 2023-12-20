@@ -22,13 +22,27 @@ ORDERS with 51,291 rows and 24 columns
 PEOPLE with 24 rows and 2 columns
 RETURNS with 1079 rows and 3 columns
 Data Transformation/Cleaning:
-Data was efficiently cleaned and transformed with the Power Query Editor of Power BI. [a screenshot of the applied steps] Some of the applied steps included
+Data was efficiently cleaned and transformed with the Power Query Editor of Power BI.<img width="948" alt="QUERY EDITOR PRODUCT LOOKUP" src="https://github.com/mrdimejisam/Adventure-Works/assets/111657348/490c5e33-741c-4117-8166-5281609d17ab">
+  Some of the applied steps included
 
-Making first row as headers in the PEOPle and RETURN tables.
+Making first row as headers in the Product Lookup table.
+Add new column from the ProductSKU, then extract using delimeters to Add new column, then rename column to SKU Type 
+
+DAX CALCULATED COLUMNS
+Calculated column refer to entire table and were used to generate values for each row.
 Analytical transformation of the 'order table'; To have an idea of how long it takes on average for orders to be dilevered, [delivery days] need to be calculated. Using "custom columns", delivery days = [shipped date] - [order date]
 created new column for year of order date and named: [Order Year]
 ADDING conditional column to the 'Returns Table' to assign a numeric value to the Return response of YES and NO. If YES, then 1, else 0. Return Orders = IF(Returns[Returned] = "Yes", 1, 0)
 Datatype then chnged from 'TEXT' TO 'WHOLE NUMBER'.
+
+
+
+
+CREATING DAX MEASURES
+Measures evaluate based on filter context, which means they recalculate when the fields or filters around them change. Measures aren't visible within tavles; they can only be "seen" within a visualization. 
+Below are the measures I have created
+
+
 DATA MODELLING
 Power BI automatically connected related tables resulting in a star schema model. The 'Order' table is the fact table of the model. The remaining two dimension tables; 'Return' table and 'People' table are connected to the 'Order' table via the common columns: 'order ID' and Region respectively. 
 
