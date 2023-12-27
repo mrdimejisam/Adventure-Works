@@ -138,16 +138,4 @@ Product Details Dashboard
 
 ## Conclusions & Recommendations
 
-An order takes 4days on average before delivery.
-There has been a gradual increase in the yearly sales since 2012 at the rate of approximately 19%.
-Different customers topped the profit list for each year.
-Tamara Chand has made the highest sales overall since 2012 to 2015. However, on a yearly basis, Sanjit Chand made the highest sale in 2012 with over 5.7k dollars while Tamara Chand could not make the top 10 sales for that year.
-In 2013; Mike Gokenbach made the higest sales with 4.8k dollars.
 
-In 2014; Tamara chand purchased products worth 8.5k.
-
-In 2015; Raymond Buch purchsed products worth $7.4k.
-
-Canon Image (Class 2200) advance copier made the highest profit in both 2014 and 2015. Other Insights:
-The consumer segment has made more than 50% of the total sales.
-Asia Pacific is the region with the highest sales.
