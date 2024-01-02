@@ -1,6 +1,9 @@
 # Adventure-Works
 ## PowerBI Bike Sale Project
 
+### Interact with Dashbord:
+https://app.powerbi.com/view?r=eyJrIjoiYTVjMThhM2MtZDE0NC00ODA4LTg5ZTItNDg1YTY2NzI5ZmExIiwidCI6IjlkZDY3OTRiLWEzNWMtNGNjNC05NTZkLThiN2YxZmFlYmVjNCJ9
+
 ### Introduction
 
 Adventure work project is a guided project from the Master Power BI Desktop for data analysis with hands-on assignments & projects, Powered by Udemy. I came across the dataset and admired how rich the data is as I have been trying to get my hands dirty with a very rich dataset to practice my skills of data cleaning, analysis and visualization.
