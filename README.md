@@ -119,27 +119,28 @@ Power BI automatically connected related tables resulting in a star schema model
 ## Data Analysis and Visuals
 
 
-From the dashboard, it is observed that it takes 4 days on average to deliver each product on every order.
-Total sales made in 2012= 2.26M, 2013=2.68M ,2014=3.41M ,2015=4.30M.
-Sales is highest in the Western Europe region with almost 450k dollars.
 
-
-Tamara Chand is the most valuable costumer by sales.
 
 Executive Dashboard showing KPIs
 
+<img width="608" alt="image" src="https://github.com/mrdimejisam/Adventure-Works/assets/111657348/dd4ca306-9010-46db-b80b-480bc7d5b9bf">
 
-<img width="566" alt="EXECUTIVE PAGE" src="https://github.com/mrdimejisam/Adventure-Works/assets/111657348/99fdc92d-46a0-4de6-89e9-5bc14e371a97">
+
 
 
 Product Details Dashboard
 
 
-<img width="566" alt="CUSTOMER PAGE" src="https://github.com/mrdimejisam/Adventure-Works/assets/111657348/2abc5a2f-fe3b-411d-8b1e-a80517ecda1f">
+<img width="608" alt="image" src="https://github.com/mrdimejisam/Adventure-Works/assets/111657348/eafb6106-39c2-400f-a6d6-43303eb67e51">
+
+Customer Dashboard
+
+<img width="608" alt="image" src="https://github.com/mrdimejisam/Adventure-Works/assets/111657348/108e8e65-1ce6-4574-9560-ddf746e03bf0">
 
 
 
 
-## Conclusions & Recommendations
+
+
 
 
